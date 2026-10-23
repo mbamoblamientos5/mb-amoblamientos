@@ -1,0 +1,61 @@
+{
+  "heading": {
+    "eyebrow": "Contacto directo",
+    "title": [
+      "Hablemos de",
+      "tu proyecto."
+    ],
+    "description": "¿Tenés un mueble para reparar o una idea para hacer a medida? Escribime por WhatsApp y contame qué necesitás."
+  },
+  "direct": {
+    "title": "WhatsApp, sin vueltas.",
+    "description": "Hablá directamente con Sergio y contale tu idea.",
+    "cta": "Escribime por WhatsApp"
+  },
+  "form": {
+    "title": "¿Preferís dejar una consulta?",
+    "description": "Completá los detalles de tu proyecto. Al continuar se abrirá WhatsApp con tu mensaje; vos decidís cuándo enviarlo.",
+    "fields": {
+      "name": {
+        "label": "Nombre *",
+        "maxLength": 100
+      },
+      "phone": {
+        "label": "Teléfono",
+        "maxLength": 40
+      },
+      "email": {
+        "label": "Correo electrónico *",
+        "maxLength": 150
+      },
+      "projectType": {
+        "label": "Tipo de proyecto *",
+        "placeholder": "Seleccioná una opción"
+      },
+      "message": {
+        "label": "Mensaje *",
+        "placeholder": "Contanos qué necesitás reparar o fabricar",
+        "maxLength": 2000
+      }
+    },
+    "projectTypes": [
+      "Reparación de muebles",
+      "Muebles a medida",
+      "Restauración",
+      "Cocinas",
+      "Placares",
+      "Puertas",
+      "Pintura",
+      "Otro"
+    ],
+    "submit": "Continuar en WhatsApp",
+    "status": "Abriendo WhatsApp con tu consulta. Revisá el mensaje antes de enviarlo.",
+    "noscript": "Para enviar tu consulta, usá el enlace de WhatsApp o el correo que aparecen en esta sección.",
+    "messageTemplate": {
+      "greeting": "Hola, soy {name}.",
+      "projectType": "Proyecto: {projectType}",
+      "email": "Correo: {email}",
+      "phone": "Teléfono: {phone}"
+    }
+  }
+}

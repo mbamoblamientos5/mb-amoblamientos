@@ -1,0 +1,56 @@
+{
+  "name": "M&B · Sergio Alfonsín",
+  "url": "",
+  "locale": "es_AR",
+  "ogImage": "/og-image.jpg",
+  "brand": {
+    "logo": "M&B",
+    "tagline": [
+      "Amoblamientos a medida",
+      "Sergio Alfonsín"
+    ],
+    "homeLabel": "M&B, inicio"
+  },
+  "contact": {
+    "whatsappNumber": "5491130539247",
+    "phoneDisplay": "11 3053-9247",
+    "email": "alfonsinsergio3@gmail.com",
+    "defaultMessage": "Hola, quiero consultar por una reparación o un mueble a medida"
+  },
+  "navigation": [
+    {
+      "label": "Servicios",
+      "to": "/#servicios",
+      "highlight": false
+    },
+    {
+      "label": "Trabajos",
+      "to": "/#trabajos",
+      "highlight": false
+    },
+    {
+      "label": "El oficio",
+      "to": "/#oficio",
+      "highlight": false
+    },
+    {
+      "label": "Hablemos ↗",
+      "to": "/#contacto",
+      "highlight": true
+    }
+  ],
+  "ui": {
+    "skipLink": "Saltar al contenido",
+    "navLabel": "Principal",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "themeToDark": "Activar modo oscuro",
+    "themeToLight": "Activar modo claro",
+    "whatsappButton": "Abrir chat con Sergio en WhatsApp"
+  },
+  "footer": {
+    "description": "Amoblamientos a medida. Hecho con atención a cada detalle.",
+    "signature": "Sergio Alfonsín · Crear, recuperar y transformar.",
+    "backToTop": "Volver arriba ↑"
+  }
+}

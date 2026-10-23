@@ -1,0 +1,20 @@
+{
+  "eyebrow": "El oficio",
+  "title": [
+    "La belleza está",
+    "en hacer las",
+    "cosas bien."
+  ],
+  "paragraphs": [
+    "Cada proyecto empieza por entender qué necesitás: reparar, recuperar o crear una pieza para un espacio concreto.",
+    "La madera aporta calidez y personalidad. Buscamos combinar utilidad, buenas terminaciones y una estética que perdure."
+  ],
+  "signature": {
+    "name": "Sergio Alfonsín",
+    "role": "M&B · Amoblamientos a medida"
+  },
+  "image": {
+    "src": "about/oficio",
+    "alt": "Trabajo artesanal con cepillo de carpintería"
+  }
+}

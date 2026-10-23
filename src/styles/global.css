@@ -1,0 +1,153 @@
+@import 'tailwindcss';
+
+/* El tema se aplica con `data-theme` en <html> (lo fija el script inline de index.html). */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme {
+  /* Mismos cortes que el sitio original: 650px (móvil) y 1000px. */
+  --breakpoint-*: initial;
+  --breakpoint-md: 40.6875rem;
+  --breakpoint-lg: 62.5rem;
+
+  --font-sans: 'DM Sans', Arial, sans-serif;
+  --font-display: 'Space Grotesk', Manrope, Arial, sans-serif;
+  --font-brand: Manrope, Arial, sans-serif;
+
+  --color-accent: #e8ba82;
+  --color-accent-soft: #f2cfa5;
+  --color-accent-deep: #754b2d;
+  --color-accent-border: #c99560;
+  --color-hero-accent: #edc395;
+  --color-hero-text: #e1e6db;
+  --color-cream: #f4f4ec;
+  --color-forest-950: #1a211b;
+  --color-forest-900: #19241a;
+  --color-forest-on: #c5cbbd;
+  --color-focus: #7da727;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-hover: #1fbd5b;
+  --color-whatsapp-border: #1db758;
+
+  --animate-ticker: ticker 35s linear infinite;
+
+  @keyframes ticker {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* Tokens que cambian con el tema: las clases (`bg-page`, `text-ink`, …) no necesitan `dark:`. */
+@theme inline {
+  --color-page: var(--page);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-surface: var(--surface);
+  --color-panel: var(--panel);
+  --color-contact: var(--contact);
+  --color-contact-muted: var(--contact-muted);
+  --color-field: var(--field);
+  --color-field-line: var(--field-line);
+  --color-deep: var(--deep);
+  --color-deep-muted: var(--deep-muted);
+  --color-photo: var(--photo);
+  --color-strong: var(--strong);
+  --color-strong-hover: var(--strong-hover);
+  --color-on-strong: var(--on-strong);
+  --color-highlight: var(--highlight);
+  --color-dot: var(--dot);
+}
+
+@layer base {
+  :root {
+    --header-h: 4.75rem;
+    --page: #f4efe5;
+    --ink: #272d23;
+    --muted: #64685b;
+    --line: #d8d2c4;
+    --surface: #e8e2d5;
+    --panel: #f6f5ed;
+    --contact: #e3e6d5;
+    --contact-muted: #515b47;
+    --field: #fffdf780;
+    --field-line: #c6cdbb;
+    --deep: #242e24;
+    --deep-muted: #a9b59f;
+    --photo: #e8e6df;
+    --strong: #253021;
+    --strong-hover: #465439;
+    --on-strong: #ffffff;
+    --highlight: #9b5d32;
+    --dot: #7d8a62;
+    color-scheme: light;
+
+    @variant md {
+      --header-h: 5.25rem;
+    }
+  }
+
+  /* Paleta oscura propia: verdes profundos, crema apagado y el mismo acento madera. */
+  [data-theme='dark'] {
+    --page: #131913;
+    --ink: #ebe5d6;
+    --muted: #a3a898;
+    --line: #2c362c;
+    --surface: #1d261e;
+    --panel: #19211a;
+    --contact: #172018;
+    --contact-muted: #b3b9a6;
+    --field: #10160f;
+    --field-line: #3a463a;
+    --deep: #1c251d;
+    --deep-muted: #a9b59f;
+    --photo: #2a332a;
+    --strong: #ebe5d6;
+    --strong-hover: #ffffff;
+    --on-strong: #1a211b;
+    --highlight: #e8ba82;
+    --dot: #9aa77c;
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-h);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-page font-sans text-ink antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 5px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+/* Título grande de sección (h1 en las páginas internas, h2 en Home). */
+@utility heading-xl {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.08;
+  letter-spacing: -2px;
+
+  @variant md {
+    font-size: clamp(38px, 4.8vw, 68px);
+    letter-spacing: -3px;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "seo": {
+    "title": "M&B · Sergio Alfonsín | Amoblamientos a medida",
+    "description": "M&B · Sergio Alfonsín. Amoblamientos a medida, reparación y restauración de muebles. Servicio de pintura."
+  },
+  "hero": {
+    "eyebrow": "Oficio · Diseño · Madera",
+    "title": "Amoblamientos",
+    "titleAccent": "a medida.",
+    "titleEnd": "Reparaciones en gral.",
+    "description": "Reparamos y restauramos muebles, y fabricamos piezas personalizadas para tu espacio y tus necesidades.",
+    "primaryCta": "Escribime por WhatsApp",
+    "secondaryCta": {
+      "label": "Pedir presupuesto",
+      "to": "#contacto"
+    },
+    "note": "Hecho con atención a cada detalle.",
+    "scrollCta": {
+      "label": "Descubrí más",
+      "to": "#servicios"
+    },
+    "image": {
+      "src": "home/hero",
+      "alt": "Herramientas y madera sobre una mesa de trabajo de carpintería"
+    }
+  },
+  "ticker": {
+    "label": "Muebles a medida, restauración, reparaciones y pintura",
+    "items": [
+      "Amoblamientos a medida",
+      "Restauración",
+      "Reparaciones",
+      "Servicio de pintura"
+    ]
+  }
+}

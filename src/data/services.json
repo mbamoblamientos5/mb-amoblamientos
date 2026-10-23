@@ -1,0 +1,47 @@
+{
+  "heading": {
+    "eyebrow": "Qué hacemos",
+    "title": [
+      "Soluciones hechas",
+      "para durar."
+    ],
+    "description": "Desde una reparación puntual hasta un mueble pensado desde cero, trabajamos cada detalle con atención."
+  },
+  "items": [
+    {
+      "number": "01",
+      "title": "Reparación de muebles",
+      "description": "Arreglos para recuperar la utilidad de tus muebles."
+    },
+    {
+      "number": "02",
+      "title": "Muebles a medida",
+      "description": "Piezas personalizadas para aprovechar cada espacio."
+    },
+    {
+      "number": "03",
+      "title": "Restauración",
+      "description": "Una nueva vida para piezas que querés conservar."
+    },
+    {
+      "number": "04",
+      "title": "Cocinas",
+      "description": "Muebles funcionales para el uso cotidiano."
+    },
+    {
+      "number": "05",
+      "title": "Placares",
+      "description": "Opciones de guardado pensadas para tu espacio."
+    },
+    {
+      "number": "06",
+      "title": "Puertas",
+      "description": "Soluciones en madera con atención a las terminaciones."
+    }
+  ],
+  "painting": {
+    "title": "También ofrecemos servicio de pintura.",
+    "description": "Contanos qué necesitás renovar.",
+    "to": "#contacto"
+  }
+}

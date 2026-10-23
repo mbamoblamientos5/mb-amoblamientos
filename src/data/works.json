@@ -1,0 +1,83 @@
+{
+  "heading": {
+    "eyebrow": "Trabajos reales",
+    "title": [
+      "Crear. Recuperar.",
+      "Transformar."
+    ],
+    "description": "Amoblamientos a medida y detalles de trabajos realizados por Sergio."
+  },
+  "items": [
+    {
+      "title": "Mueble de TV",
+      "description": "Panel con listones y módulo suspendido",
+      "image": "works/trabajo-9",
+      "original": "works/originals/trabajo-9.jpeg",
+      "square": false
+    },
+    {
+      "title": "Vestidor a medida",
+      "description": "Estantes, cajonera y espacio de colgado",
+      "image": "works/trabajo-8",
+      "original": "works/originals/trabajo-8.jpeg",
+      "square": true
+    },
+    {
+      "title": "Mueble bajo mesada",
+      "description": "Frentes blancos y herrajes metálicos",
+      "image": "works/trabajo-3",
+      "original": "works/originals/trabajo-3.jpeg",
+      "square": false
+    },
+    {
+      "title": "Detalle interior",
+      "description": "Distribución del mismo mueble con puertas abiertas",
+      "image": "works/trabajo-4",
+      "original": "works/originals/trabajo-4.jpeg",
+      "square": false
+    },
+    {
+      "title": "Tocador con espejo",
+      "description": "Cajones, estantes y espacio de apoyo",
+      "image": "works/trabajo-5",
+      "original": "works/originals/trabajo-5.jpeg",
+      "square": true
+    },
+    {
+      "title": "Mesa de luz",
+      "description": "Dos cajones y un estante abierto",
+      "image": "works/trabajo-7",
+      "original": "works/originals/trabajo-7.jpeg",
+      "square": true
+    },
+    {
+      "title": "Bajo mesada instalado",
+      "description": "Puertas y cajones a medida",
+      "image": "works/trabajo-6",
+      "original": "works/originals/trabajo-6.jpeg",
+      "square": false
+    },
+    {
+      "title": "Estante en madera natural",
+      "description": "Estantes y ganchos metálicos",
+      "image": "works/trabajo-1",
+      "original": "works/originals/trabajo-1.jpeg",
+      "square": false
+    },
+    {
+      "title": "Estante con terminación blanca",
+      "description": "Guardado abierto y ganchos",
+      "image": "works/trabajo-2",
+      "original": "works/originals/trabajo-2.jpeg",
+      "square": false
+    }
+  ],
+  "note": "Trabajos reales de M&B. Fotografías retocadas para mejorar iluminación y limpiar distracciones del entorno.",
+  "lightbox": {
+    "openLabel": "Ver foto ampliada:",
+    "close": "Cerrar foto",
+    "previous": "Foto anterior",
+    "next": "Foto siguiente",
+    "original": "Ver foto original sin retoque ↗"
+  }
+}

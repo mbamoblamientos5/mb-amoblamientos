@@ -1,0 +1,11 @@
+{
+  "seo": {
+    "title": "Página no encontrada | M&B · Sergio Alfonsín",
+    "description": "La página que buscás no existe o cambió de dirección."
+  },
+  "eyebrow": "Error 404",
+  "code": "404",
+  "title": "Página no encontrada.",
+  "description": "La página que buscás no existe o cambió de dirección. Podés volver al inicio y seguir recorriendo los trabajos de M&B.",
+  "cta": { "label": "Volver al inicio", "to": "/" }
+}
